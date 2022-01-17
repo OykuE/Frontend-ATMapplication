@@ -12,22 +12,20 @@
         </header>
     
         <div class="hesabim_content">
-        </br>
-        <h1>Hesap Bilgileri</h1></br>
                 <div class="label">
-                    <Label>Ad</Label><br>
+                    <Label><h3>Ad</h3></Label>
                     <input type="text">
                 </div></br>
                 <div class="label">
-                    <Label>Soyad</Label><br>
+                    <Label><h3>Soyad</h3></Label>
                     <input type="text">
                 </div></br>
                 <div class="label">
-                    <Label>Hesap Numarası</Label><br>
+                    <Label><h3>Hesap Numarası</h3></Label>
                     <input type="text">
                 </div></br>
                 <div class="label">
-                    <Label>Hesap Bakiyesi</Label><br>
+                    <Label><h3>Hesap Bakiyesi</h3></Label>
                     <input type="text">
                 </div></br>
                 </br>
