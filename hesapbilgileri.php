@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device.width, initial-scale=1.0, shrink-to-fit=no">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css\bootstrap.min.css">
         <title>TürksatBank</title>
     </head>
     <body>
@@ -31,6 +31,7 @@
                 </br>
                <a href="secimekrani.php"><button class="button tamam">Geri</button></a>
                <a href="index.php"><button class="button tamam">Çıkış</button>
+               
         </div>
     </body>
 </html>

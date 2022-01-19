@@ -8,12 +8,13 @@ body {
 header {
   position: relative;
   width: 100%;
-  left: 0;
-  height: 250px;
+  height: 230px;
   background-image: url("logo/logo.png");
   background-repeat: no-repeat;
   background-position: center;
   top: 0;
+  left: 0;
+  background-color: #0099ff;
 }
 
 h3 {
@@ -23,6 +24,9 @@ h3 {
   right: 0;
   top: 10px;
   font-size: 30px;
+  padding: 10px;
+  background-color: lightgrey;
+  border-radius: 12px;
 }
 
 h1 {
@@ -36,12 +40,13 @@ h1 {
 
 .giris {
   width: 70%;
-  height: 600px;
+  height: 550px;
   margin: 0 auto;
   background-color: lightgrey;
   border-radius: 10px;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 input[type="text"],
@@ -134,4 +139,68 @@ output[type="text"] {
 
 .hesabim_content button:hover {
   background-color: #0099ff;
+}
+
+.list-group-item-secim {
+  background-color: white;
+  border: 2px solid #0099ff;
+  color: rgb(41, 44, 44);
+  border-radius: 12px;
+  height: auto;
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+.list-group-item-secim:hover {
+  background-color: #0099ff;
+  color: white;
+}
+
+.btn-iptal {
+  background-color: white;
+  border: 2px solid rgb(248, 28, 28);
+  color: rgb(41, 44, 44);
+  border-radius: 12px;
+  height: auto;
+  font-size: 30px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  width: 250px;
+}
+
+.btn-iptal:hover {
+  background-color: red;
+  color: white;
+}
+
+.btn-onay {
+  background-color: white;
+  border: 2px solid #0099ff;
+  color: rgb(41, 44, 44);
+  border-radius: 12px;
+  height: auto;
+  font-size: 30px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  width: 250px;
+}
+
+.btn-onay:hover {
+  background-color: #0099ff;
+  color: white;
+}
+
+.footer {
+  width: 70%;
+  height: 5%;
+  margin: auto;
+  background-color: white;
 }
