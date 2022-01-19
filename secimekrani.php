@@ -21,7 +21,7 @@
         </div>
         <div class="footer">
             <div class="btn-group" role="group">
-            <a href="index.php"><button type="button" class="btn btn-iptal">İptal</button></a>
+            <a href="index.php"><button type="button" class="btn btn-iptal">Çıkış</button></a>
             </div>
            <div div class="btn-group" role="group">
                  <button type="button" class="btn btn-onay">Tamam</button>
