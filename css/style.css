@@ -103,7 +103,7 @@ output[type="text"] {
   height: auto;
   left: 20%;
   top: 50px;
-  background: grey;
+  background-color: lightgrey;
   opacity: 0.7;
 }
 
@@ -112,6 +112,7 @@ output[type="text"] {
   width: 100%;
   height: 60px;
   font-size: 30px;
+  background-color: lightgrey;
 }
 
 .label label {
@@ -119,6 +120,7 @@ output[type="text"] {
   font-size: 30px;
   line-height: 60px;
   left: 50px;
+  background-color: lightgrey;
 }
 
 .hesabim_content button {
