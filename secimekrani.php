@@ -7,7 +7,7 @@
         <link href="css\style.css" rel="stylesheet"/>
         <title>TürksatBank</title>
     </head>
-    <header class="MainHeader"></header>
+    <header class="MainHeader"> </header>
     <body>
         <div class="giris">
             <h3>Yapmak İstediğiniz İşlem Türünü Seçiniz</h3><br><br> 

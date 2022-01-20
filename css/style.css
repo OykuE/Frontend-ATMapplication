@@ -5,16 +5,12 @@ body {
   text-align: center;
   background-color: white;
 }
-header {
-  position: relative;
+.MainHeader {
   width: 100%;
-  height: 230px;
-  background-image: url("logo/logo.png");
+  height: 200px;
+  background-image: url("logo.png");
   background-repeat: no-repeat;
   background-position: center;
-  top: 0;
-  left: 0;
-  background-color: #0099ff;
 }
 
 h3 {
@@ -124,7 +120,6 @@ output[type="text"] {
   position: relative;
   font-size: 30px;
   line-height: 60px;
-  left: 50px;
   background-color: lightgrey;
 }
 
