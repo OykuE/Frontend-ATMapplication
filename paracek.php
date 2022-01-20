@@ -18,7 +18,7 @@
                 <div class="label">
                     <Label><h3>Hesap Bakiyeniz:</h3></Label></br>
                     <Textbox>0.0</Textbox><Textbox> TL</Textbox>
-                </div></br></br></br></br>
+                </div></br></br></br></br></br>
                 <div class="label">
                     <Label><h3>Çekmek İstediğiniz Tutarı Giriniz</h3></Label><br>
                     <input type="text">
