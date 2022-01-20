@@ -13,8 +13,7 @@
         </header>
     
         <div class="giris">
-            <div class="divhalf">
-            <br><img src="kredi-karti.png" alt="kredi kartı" style="height: 150px; width:230px;" ><br>
+            <br><img src="kredi-karti.png" alt="kredi kartı" style="height: 180px; width:270px;" ><br>
             <br>
                 <Label><h4>Kart Numarası</h4></Label><br>
                 <label class="output"><b>12345678</b></label><br><br>
@@ -24,8 +23,6 @@
                 
                  <Label><h4>CVV</h4></Label><br>
                  <label class="output"><b>789</b></label><br><br>
-                
-            </div>  
          </div>
 
 
