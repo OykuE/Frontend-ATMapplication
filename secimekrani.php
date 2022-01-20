@@ -9,7 +9,7 @@
     </head>
     <header class="MainHeader"> </header>
     <body>
-        <div class="giris">
+        <div class="giris" style="height: auto">
             <h3>Yapmak İstediğiniz İşlem Türünü Seçiniz</h3><br><br> 
             <div class="list-group">
                  <a href="hesapsecim.php" class="list-group-item list-group-item-secim">Hesap Bilgilerimi Görüntüle</a>
@@ -17,15 +17,14 @@
                  <a href="paracek.php" class="list-group-item list-group-item-secim">Hesabımdan Para Çek</a>
                  <a href="parayatir.php" class="list-group-item list-group-item-secim">Hesabıma Para Yatır</a>
                  <a href="paragonder.php" class="list-group-item list-group-item-secim">Başka Bir Hesaba Para Gönder</a>
+                 <a href="borcode.php" class="list-group-item list-group-item-secim">Borç Öde</a>
             </div>
         </div>
         <div class="footer">
             <div class="btn-group" role="group">
             <a href="index.php"><button type="button" class="btn btn-iptal">Çıkış</button></a>
             </div>
-           <div div class="btn-group" role="group">
-                 <button type="button" class="btn btn-onay">Tamam</button>
-             </div>
+       
         </div>
    
     </body>
