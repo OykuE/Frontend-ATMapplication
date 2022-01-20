@@ -10,7 +10,7 @@
     <header class="MainHeader"> </header>
     <body>
         <div class="giris">
-            <h3>Yapmak İstediğiniz İşlem Türünü Seçiniz</h3><br><br> 
+            <h3>İşlem Yapmak İstediğiniz Kart Türünü Seçiniz</h3><br><br> 
             <div class="list-group">
                  <a href="kartbilgileri.php" class="list-group-item list-group-item-secim">Banka Kartı</a>
                  <a href="secimekrani.php" class="list-group-item list-group-item-secim">Kredi Kartı</a>
