@@ -12,8 +12,8 @@
         <div class="giris">
             <h3>Yapmak İstediğiniz İşlem Türünü Seçiniz</h3><br><br> 
             <div class="list-group">
-                 <a href="hesapbilgileri.php" class="list-group-item list-group-item-secim">Hesap Bilgilerimi Görüntüle</a>
-                <a href="kartbilgileri.php" class="list-group-item list-group-item-secim">Kart Bilgilerimi Görüntüle</a>
+                 <a href="hesapsecim.php" class="list-group-item list-group-item-secim">Hesap Bilgilerimi Görüntüle</a>
+                <a href="kartsecim.php" class="list-group-item list-group-item-secim">Kart Bilgilerimi Görüntüle</a>
                  <a href="paracek.php" class="list-group-item list-group-item-secim">Hesabımdan Para Çek</a>
                  <a href="parayatir.php" class="list-group-item list-group-item-secim">Hesabıma Para Yatır</a>
                  <a href="paragonder.php" class="list-group-item list-group-item-secim">Başka Bir Hesaba Para Gönder</a>
