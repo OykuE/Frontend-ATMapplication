@@ -17,12 +17,17 @@
         </br> </br>
                 <div class="label">
                     <Label><h3>Hesap Bakiyeniz:</h3></Label></br>
-                    <Textbox>0.0</Textbox><Textbox> TL</Textbox>
-                </div></br></br></br></br></br>
+                    <label class="output"><b>0.0 </b></label><br><br>
+                </div></br></br></br></br></br></br></br>
+                <form action="islem.php" method="post">
                 <div class="label">
                     <Label><h3>Yatırmak İstediğiniz Tutarı Giriniz</h3></Label><br>
-                    <input type="text">
+                    <div class="user">
+                    <input class="output" type="text" name="tutar" placeholder="0.0">
+                    </div>
                 </div>
+                </br>
+            </form>
         </div>
                 <div class="footer">
                     <div class="btn-group" role="group">
