@@ -17,11 +17,13 @@
         </br> </br>
                 <div class="label">
                     <Label><h3>Hesap Bakiyeniz:</h3></Label></br>
-                    <Textbox>0.0</Textbox><Textbox> TL</Textbox>
+                    <label class="output"><b>0.0 TL</b></label><br><br>
                 </div></br></br></br></br></br>
                 <div class="label">
                     <Label><h3>Çekmek İstediğiniz Tutarı Giriniz</h3></Label><br>
-                    <input type="text">
+                    <div class="user">
+                    <input class="output" type="text" name="tutar" placeholder="0.0">
+                    </div>
                 </div>
         </div>
                 <div class="footer">
