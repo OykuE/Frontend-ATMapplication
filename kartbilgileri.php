@@ -31,9 +31,7 @@
                     <div class="btn-group" role="group">
                         <a href="secimekrani.php"><button type="button" class="btn btn-iptal">İptal</button></a>
                     </div>
-                    <div class="btn-group" role="group">
-                        <button type="submit" class="btn btn-onay">Tamam</button>
-        </div>
+        </div>        
 
 
     </body>
