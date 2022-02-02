@@ -12,15 +12,49 @@
         <div class="giris">
             <h3>İşlem Yapmak İstediğiniz Kart Türünü Seçiniz</h3><br><br> 
             <div class="list-group">
-                 <a href="kartbilgileri.php" class="list-group-item list-group-item-secim">Banka Kartı</a>
-                 <a href="secimekrani.php" class="list-group-item list-group-item-secim">Kredi Kartı</a>
-                 <a href="secimekrani.php" class="list-group-item list-group-item-secim">Avantajlı Kredi Kartı</a>
+                 <button class="list-group-item list-group-item-secim" onclick="bankaFunction()">Banka Kartı</button>
+                 <button class="list-group-item list-group-item-secim" onclick="krediFunction()">Kredi Kartı</button>
+                 <button class="list-group-item list-group-item-secim" onclick="avantajFunction()">Avantajlı Kredi Kartı</button>
             </div>
         </div>
         <div class="footer">
                     <div class="btn-group" role="group">
-                        <a href="secimekrani.php"><button type="button" class="btn btn-iptal">İptal</button></a>
+                        <button type="button" class="btn btn-iptal"  onclick="geriFunction()">Geri Dön</button></a>
                     </div>
         </div>
     </body>
 </html>
+
+<script>
+ function bankaFunction(){
+    let cardType = "banka";
+    let params = new URLSearchParams(document.location.search);
+    let userId = params.get("userId");
+    console.log(userId,cardType);
+   window.location.href = "kartbilgileri.php?cardType="+cardType+"&userId="+userId;  
+ }
+
+ function krediFunction(){
+    let cardType = "kredi";
+    let params = new URLSearchParams(document.location.search);
+    let userId = params.get("userId");
+    console.log(userId,cardType);
+   window.location.href = "kartbilgileri.php?cardType="+cardType+"&userId="+userId;  
+ }
+
+ function avantajFunction(){
+    let cardType = "avantali";
+    let params = new URLSearchParams(document.location.search);
+    let userId = params.get("userId");
+    console.log(userId,cardType);
+   window.location.href = "kartbilgileri.php?cardType="+cardType+"&userId="+userId;  
+ }
+
+ function geriFunction(){
+    let params = new URLSearchParams(document.location.search);
+        let userId = params.get("userId");
+        let page = params.get("page");
+        window.location.href = "secimekrani.php?userId=" + userId + "&page=" + page; 
+}
+</script>
+

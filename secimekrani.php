@@ -12,21 +12,37 @@
         <div class="giris" style="height: auto">
             <h3>Yapmak İstediğiniz İşlem Türünü Seçiniz</h3><br><br> 
             <div class="list-group">
-                 <a href="hesapsecim.php" class="list-group-item list-group-item-secim">Hesap Bilgilerimi Görüntüle</a>
-                <a href="kartsecim.php" class="list-group-item list-group-item-secim">Kart Bilgilerimi Görüntüle</a>
-                 <a href="paracek.php" class="list-group-item list-group-item-secim">Hesabımdan Para Çek</a>
-                 <a href="parayatir.php" class="list-group-item list-group-item-secim">Hesabıma Para Yatır</a>
-                 <a href="paragonder.php" class="list-group-item list-group-item-secim">Başka Bir Hesaba Para Gönder</a>
-                 <a href="borcode.php" class="list-group-item list-group-item-secim">Borç Öde</a>
+                 <button type="button" class="list-group-item list-group-item-secim" id="hesapbilgisi" onclick="hesapsecimFunction()">Hesap Bilgilerimi Görüntüle</button>
+                 <button type="button" class="list-group-item list-group-item-secim" id="kartbilgisi" onclick="kartsecimFunction()">Kart Bilgilerimi Görüntüle</button>
+                 <button type="button" class="list-group-item list-group-item-secim" id="paracek" onclick="hesapsecimFunction()">Hesabımdan Para Çek</button>
+                 <button type="button" class="list-group-item list-group-item-secim" id="parayatir" onclick="hesapsecimFunction()">Hesabıma Para Yatır</button>
+                 <button type="button" class="list-group-item list-group-item-secim" id="paragonder" onclick="hesapsecimFunction()">Başka Bir Hesaba Para Gönder</button>
+                 <button type="button" class="list-group-item list-group-item-secim" id="borcode" onclick="hesapsecimFunction()">Borç Öde</button>
             </div>
         </div>
         <div class="footer">
             <div class="btn-group" role="group">
-            <a href="index.php"><button type="button" class="btn btn-iptal">Çıkış</button></a>
-            </div>
-       
+            <a href="cikis.php"><button type="button" class="btn btn-iptal">Çıkış</button></a>
+            </div>     
         </div>
    
     </body>
-</html>
+</html>   
 
+<script>
+function hesapsecimFunction(){
+        let params = new URLSearchParams(document.location.search);
+        let userId = params.get("userId");
+        console.log(event.srcElement.id);
+        window.location.href = "hesapsecim.php?userId="+userId+"&page="+event.srcElement.id;
+}
+
+function kartsecimFunction(){
+        let params = new URLSearchParams(document.location.search);
+        let userId = params.get("userId");
+        console.log(userId);
+        window.location.href = "kartsecim.php?userId="+userId+"&page="+event.srcElement.id;
+        
+} 
+
+</script>
