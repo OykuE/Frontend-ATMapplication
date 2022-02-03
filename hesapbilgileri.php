@@ -14,6 +14,7 @@
     
     <div class="giris">
                 <div class="panel-body">
+                <br><br>
                      <Label><h4>Hesap Türü</h4></Label><br>
                      <label id="hesaptur" class="output"><b></b></label><br><br>
                 

@@ -17,7 +17,7 @@
         </br> </br>
                 <div class="label">
                     <Label><h3>Hesap Bakiyeniz:</h3></Label></br>
-                    <label class="output" id="bakiye"><b>0.0 </b></label><br><br>
+                    <label class="output" id="bakiye"><b>0.0 TL </b></label><br><br>
                 </div></br></br></br></br></br></br></br>
                 <form action="islem.php" method="post">
                 <div class="label">
